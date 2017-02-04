@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 923 526">
+	<defs>
+		<style>
+			.a{font-size:256.3px;}
+			.a,.b{font-family:MongolianBaiti, Mongolian Baiti;}
+			.b{font-size:183.64px;}
+			.color{fill: #FFFFFF;}
+		</style>
+	</defs>
+	
+	<title>theWeberWayLogo</title>
+	
+	<polygon class="color" points="465.64 0 0.43 143.98 923 143.98 465.64 0"/>
+	
+	<text class="a color" transform="translate(1.61 340.15) scale(1.34 1)">
+		Weber
+	</text>
+	
+	<text class="b color" transform="translate(0 486.01) scale(1.06 1)">
+		Contracting
+	</text>
+</svg>

@@ -1,0 +1,50 @@
+/* CSS Document */
+
+
+/* GLOBAL HEADER STYLES */
+
+	.header {
+		width: 95%;
+		}
+
+	.pageLogo {
+		width: 10%;
+		margin-left: -35px;
+		margin-right: 5px;
+		display: inline-block;
+		}
+
+	.menuContainer {
+		display: inline-block;
+		height: 4vh;
+		}
+
+	li {
+		display: inline-block;
+		text-transform: uppercase;
+		margin: 0 5px;
+		font-size: calc(0.2em + 1.8vmin);
+		font-weight: bold;
+		}
+
+	a li {
+		color: orange;
+		}
+
+
+/* MEDIA SPECIFIC STYLES */
+	@media screen and (max-width: 767px) {
+		
+		}
+
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+
+		}
+
+	@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+		}
+
+	@media screen and (min-width: 1200px) {
+
+		}
