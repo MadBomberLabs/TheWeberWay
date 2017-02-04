@@ -1,4 +1,4 @@
-# The-Weber-Way
+# TheWeberWay
 theweberway.com
 
 
