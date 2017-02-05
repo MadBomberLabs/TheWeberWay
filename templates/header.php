@@ -8,12 +8,14 @@
 		
 		<!-- Menu Items -->
 		<div class="menuContainer">
-			<button onclick='btnClick()'><li id="homeBtn">Home</li></button>
-			<button onclick='btnClick()'><li id="resBtn">Residential</li></button>
-			<button onclick='btnClick()'><li id="indBtn">Industrial</li></button>
-			<button onclick='btnClick()'><li id="comBtn">Commercial</li></button>
-			<button onclick='btnClick()'><li id="aboutUsBtn">About Us</li></button>
-			<button onclick='btnClick()'><li id="contactBtn">Contact</li></button>
+			<ul class="tab">
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openServices(event, 'Home')" id="defaultOpen">Home</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openServices(event, 'Residential')">Residential</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openServices(event, 'Industrial')">Industrial</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openServices(event, 'Commercial')">Commercial</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openServices(event, 'AboutUs')">About Us</a></li>
+				<li><a href="javascript:void(0)" class="tablinks" onclick="openServices(event, 'Contact')">Contact</a></li>
+			</ul>
 		</div>
 	</ul>
 </header>
