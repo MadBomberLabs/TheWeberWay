@@ -3,48 +3,95 @@
 
 /* GLOBAL HEADER STYLES */
 
-	.header {
-		width: 95%;
-		}
+.topHeader {
+	width: 100%;
+	text-align: center;
+	}
 
-	.pageLogo {
-		width: 10%;
-		margin-left: -35px;
-		margin-right: 5px;
-		display: inline-block;
-		}
+.topHeader ul {
+	position: relative;
+	margin: 10px 15px;
+}
 
-	.menuContainer {
-		display: inline-block;
-		height: 4vh;
-		}
+.website {
+	width: auto;
+	font-size: 1.2vh;
+	position: relative;
+	margin-right: 110px;
+	}
 
-	li {
-		display: inline-block;
-		text-transform: uppercase;
-		margin: 0 5px;
-		font-size: calc(0.2em + 1.8vmin);
-		font-weight: bold;
-		}
+.pagePhrase {
+	float: right;
+	text-align: right;
+	font-size: 1.2vh;
+	width: 325px;
+	position: absolute;
+	right: 0;
+	}
 
-	a li {
-		color: orange;
-		}
+.topHeaderItem {
+	display: inline-block;
+	}
+
+.bottomHeader {
+	width: 100%;
+	padding-top: 75px;
+	}
+
+.bottomHeader ul {
+	padding: 0px;
+}
+
+.tab {
+	height: inherit;
+	background-color: #FFFFFF;
+	}
+
+.tab li {
+	height: 18px;
+	text-align: center;
+}
+
+.active {
+	color: white;
+	background-color: black;
+	}
+
+.active:hover {
+	color: white;
+	}
+
+li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: calc(0.8em + 0.8vw);
+	font-weight: bold;
+	}
+
+li a {
+	color: #000000;
+	text-decoration: none;
+	padding: 0px 10px;
+	}
+
+li a:hover {
+	color: #FF6700;
+	}
 
 
 /* MEDIA SPECIFIC STYLES */
-	@media screen and (max-width: 767px) {
-		
-		}
+@media screen and (max-width: 767px) {
 
-	@media screen and (min-width: 768px) and (max-width: 991px) {
+}
 
-		}
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
-	@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
 
-		}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 
-	@media screen and (min-width: 1200px) {
+}
 
-		}
+@media screen and (min-width: 1200px) {
+
+}

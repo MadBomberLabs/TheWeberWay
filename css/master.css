@@ -3,4 +3,24 @@
 body {
 	background-color: black;
 	color: white;
+	min-height: 95vh;
+	position: relative;
+	min-width: 510px;
+	width: 100%;
+	margin: 0px;
+	}
+
+hr {
+	padding: none;
+	margin: 0px;
+	width: 100%;
+	}
+
+strong {
+	color: #FF6700;
+	}
+
+.mainBody {
+	padding: 30px 50px;
+	text-align: center;
 	}

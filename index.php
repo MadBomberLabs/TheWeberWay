@@ -8,6 +8,11 @@
 	<!-- Stylesheet Links -->
 	<link rel="stylesheet" type="text/css" href="./css/header.css" />
 	<link rel="stylesheet" type="text/css" href="./css/master.css" />
+	<link rel="stylesheet" type="text/css" href="./css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="./css/images.css" />
+	
+	<!-- favicon Link -->
+	<link rel="stylesheet" href="./css/font-awesome.min.css" />
 	
 	<!-- JS Links -->
 	<script type="text/javascript" src="js/master.js"></script>
@@ -20,6 +25,7 @@
 	<?php include 'templates/header.php'; ?>
 	
 <!--BODY -->
+<div class=mainBody>
 	<!-- HOME -->
 	<div id="Home" class="tabcontent">
 		<?php include 'templates/home_body.php'; ?>
@@ -49,6 +55,7 @@
 	<div id="Contact" class="tabcontent">
 		<?php include 'templates/contact_body.php'; ?>
 	</div>
+</div>
 	
 	<!-- NEEDED FOR MENU JS -->
 	<script>
