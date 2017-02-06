@@ -1,7 +1,7 @@
 <footer>
 	<hr>
 	<div>
-		This is footer text
+		Employee Login | Customer Login | Consulting Login
 	</div>
 
 </footer>

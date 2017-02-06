@@ -7,9 +7,9 @@
 	
 	<!-- Stylesheet Links -->
 	<link rel="stylesheet" type="text/css" href="./css/header.css" />
-	<link rel="stylesheet" type="text/css" href="./css/master.css" />
 	<link rel="stylesheet" type="text/css" href="./css/footer.css" />
 	<link rel="stylesheet" type="text/css" href="./css/images.css" />
+	<link rel="stylesheet" type="text/css" href="./css/master.css" />
 	
 	<!-- favicon Link -->
 	<link rel="stylesheet" href="./css/font-awesome.min.css" />

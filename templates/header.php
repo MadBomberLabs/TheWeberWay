@@ -2,9 +2,11 @@
 
 <div class="topHeader">
 	<ul>
-		<img class="topHeaderItem pageLogo" src="../images/theWeberWayLogo.svg" alt="Weber Contracting Logo" />
-		<li class="topHeaderItem pagePhrase"><i>"Building lasting relationships, &nbsp; &nbsp; &nbsp; <br>
-				  one board at a time"</i></li>
+		<a href="javascript:void(0)" class="tablinks list-group-item" onclick="openServices(event, 'Home')">
+			<img class="topHeaderItem pageLogo" src="../images/theWeberWayLogo.svg" alt="Weber Contracting Logo" />
+		</a>
+		<li class="topHeaderItem pagePhrase"><i>"The Weber Way is &nbsp; &nbsp; &nbsp; <br>
+				 the Reliable Way"</i></li>
 	</ul>
 </div>
 
